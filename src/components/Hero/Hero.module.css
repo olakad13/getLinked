@@ -1,0 +1,86 @@
+.hero {
+    padding-top: 1.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.heroImageCon {
+    min-height: 362.395px;
+    background: url(../../assets/man-wearing-smart-glasses-touching-virtual-screen.png),url(../../assets/bubble.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, 105.862% 104.281%;
+    background-blend-mode: luminosity, hard-light;
+    background-position: 50%, -0.057px -5.408px;
+}
+
+.heroText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .getlinked, .hero .hackathon {
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.hackathon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.getlinked {
+    margin-top: 58px;
+}
+
+.para {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 166%;
+    margin-bottom: 19px;
+    width: 67.69%;
+}
+
+.registerBtn {
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 1em 3.25em;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 14.16px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Unica One', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+}
+
+.hour span, .second span , .minute span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 133%; 
+}

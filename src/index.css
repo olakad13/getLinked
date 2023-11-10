@@ -1,0 +1,44 @@
+:root {
+  --clash-display: 'Clash Display', sans-serif;
+  --Montserrat: 'Montserrat', sans-serif;
+  --dark-purple: #150E28;
+}
+
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--Montserrat);
+  font-weight: 400;
+  font-size: 12px;
+  background-color: var(--dark-purple);
+  color: #FFF;
+}
+
+.wrapper {
+  width: 75.38%;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+button {
+  appearance: none;
+  background: transparent;
+  border: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.criteria {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding-top: 74px;
+    text-align: center;
+    padding-bottom: 58.65px;
+}
+
+.header  , .criteria, .sectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionText {
+    gap: 1rem;
+}
+
+.header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 133%; /* 26.6px */
+}
+
+.header span {
+    color: #D434FE;
+}
+
+.para {
+    width: 81%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 173.5%;
+}
+
+.para span {
+    color: #FF26B9;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.readMoreBtn {
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 8px 14px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
