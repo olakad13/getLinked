@@ -4,11 +4,21 @@ import sectionImage from "../../assets/faq.svg"
 const FAQ = () => {
 
     const handleClick = (event) => {
+        const allCollapseItems = Array.from(document.getElementsByClassName(styles.accordionCollapse))
+        allCollapseItems.every((item) => {
+            if(item.classList.contains(styles.expand)) {
+                return false;
+            }
+            item.classList.remove(styles.expand)
+        })
+
         const button = event.target
         const parentEl = button.parentElement
         const collapseEl = parentEl.getElementsByClassName(styles.accordionCollapse)[0]
         collapseEl.classList.toggle(styles.expand);
+
     }
+    
     return (
         <section className={styles.faq}>
 

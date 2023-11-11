@@ -1,0 +1,82 @@
+.timeline {
+    padding-block: 80px;
+    padding-inline: 49px;
+    font-size: 12px;
+}
+
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 'line content' 'circle date';
+    row-gap: 8px;
+    column-gap: 12px;
+    justify-content: flex-start;
+}
+
+.heading, .headingPara {
+    text-align: center;
+}
+
+.heading {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 133%;
+}
+
+.headingPara {
+    margin-bottom: 56px;
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 172.4%;
+}
+
+.line {
+    width: 2px;
+    /* height: 77px; */
+    background: #D434FE;
+    grid-area: line;
+    justify-self: center;
+
+}
+
+.number {
+    border-radius: 50%;
+    background: #D434FE;
+    width: 19.32px;
+    height: 19.32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: circle;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.gridText {
+    grid-area: content;
+}
+
+.gridText h3 {
+    color: #D434FE;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.gridText p {
+    line-height: 159.9%; 
+}
+
+.date {
+    grid-area: date;
+    color: #D434FE;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 12px;
+}
