@@ -7,16 +7,18 @@
 .outerContainer {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 27px;
 }
 
 .grid {
     display: grid;
     grid-template-areas: 'line content' 'circle date';
-    row-gap: 8px;
-    column-gap: 12px;
+    row-gap: 4.68px;
+    column-gap: 9px;
     justify-content: flex-start;
+    /* align-items: baseline; */
 }
+
 
 .heading, .headingPara {
     text-align: center;
@@ -38,16 +40,16 @@
 
 .line {
     width: 2px;
-    /* height: 77px; */
+    height: 95%;
     background: #D434FE;
     grid-area: line;
     justify-self: center;
-
+    
 }
 
 .number {
     border-radius: 50%;
-    background: #D434FE;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
     width: 19.32px;
     height: 19.32px;
     display: flex;
@@ -69,7 +71,10 @@
 }
 
 .gridText p {
-    line-height: 159.9%; 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 170.9%;
+    margin-top: 10px; 
 }
 
 .date {
